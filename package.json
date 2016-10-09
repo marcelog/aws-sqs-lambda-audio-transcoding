@@ -1,0 +1,12 @@
+{
+  "name": "transcoding_example",
+  "version": "0.0.1",
+  "description": "ServerLess approach to Transcoding Audio Files with AWS Lambda and SQS without Elastic Transcoder",
+  "main": "index.js",
+  "author": "Marcelo Gornstein <marcelog@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.3.0",
+    "promise": "^7.1.1"
+  }
+}
