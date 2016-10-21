@@ -161,7 +161,7 @@ function processFile(
   }).then(function(result) {
     return s3Put(
       result.target, outputContentType, outputRegion, outputBucket,
-      path.basename(result.target)
+      path.dirname(sourceKey) + '/' + path.basename(result.target)
     ).then(function() {
       return result;
     });
